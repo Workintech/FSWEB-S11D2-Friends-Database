@@ -41,3 +41,9 @@ Kendi de bir şeyler yapmaya başlamış ama tam tamamlayamamış. Senden de eks
 
 - [ ] ADIM 8: component klasörü içinde `PrivateRoute.jsx` isminde Protected route componenti oluştur.
 - [ ] authenticated user değilse `/login` sayfasına `Redirect` et.
+
+## Önemli Notlar
+
+- Proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
+- Geliştirme sırasında testleri izlemek için `npm test` komutunu kullanın.
+- Testleri çalıştırıp skoru NextGen'e kaydetmek için `npm run sendresults` komutunu kullanın.

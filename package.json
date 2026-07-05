@@ -9,10 +9,9 @@
     "preview": "vite preview",
     "test": "vitest",
     "backend": "node src/mocks/api.js",
-    "wit": "concurrently 'npm run dev' 'npm run test'"
-  },
-  "jest": {
-    "verbose": true
+    "wit": "concurrently 'npm run dev' 'npm run test'",
+    "test:run": "vitest run",
+    "sendresults": "node sendTestResults.js"
   },
   "dependencies": {
     "@redux-devtools/extension": "^3.3.0",
